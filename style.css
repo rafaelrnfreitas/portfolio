@@ -19,7 +19,7 @@ p {
 
 .container {
     width: 100%;
-    max-width: 50rem;
+    max-width: 48rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -132,4 +132,29 @@ footer {
 footer .container {
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-icons a {
+    color: rgb(155, 155, 155);
+    font-size: 1.25rem;
+    transition: color 0.2s ease;
+}
+
+.footer-icons a:hover {
+    color: white;
 }
