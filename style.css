@@ -36,8 +36,13 @@ header {
 
 .nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(155, 155, 155);
     font-size: 1.25rem;
+    transition: color 0.15s ease;
+}
+
+.nav a.active {
+    color: white;
 }
 
 main {
