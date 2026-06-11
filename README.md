@@ -4,6 +4,6 @@ This is my personal portfolio website, built to showcase my projects, skills, an
 Live Demo: https://rafaelrnfreitas.github.io/portfolio/
 
 ## Features
--Home page
--Projects page
--Contact page
+- Home page
+- Projects page
+- Contact page
